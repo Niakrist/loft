@@ -1,0 +1,20 @@
+.phone {
+  display: flex;
+  align-items: center;
+  column-gap: 11px;
+  color: #fff;
+  transition: color 0.2s;
+}
+
+.phoneIcon {
+  width: 17px;
+  height: 17px;
+}
+.phoneText {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.phone:hover {
+  color: #d74444;
+}

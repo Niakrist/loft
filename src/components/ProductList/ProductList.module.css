@@ -1,0 +1,16 @@
+.productList {
+  padding: 30px 0 10px;
+}
+
+.title {
+  margin-bottom: 67px;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--text-color);
+}
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(4, 263px);
+  gap: 30px;
+}

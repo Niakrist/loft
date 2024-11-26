@@ -1,0 +1,33 @@
+.headerInfoNav {
+  padding: 10px 0;
+
+  background-color: #313131;
+}
+
+.headerInfoNavContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  column-gap: 30px;
+}
+
+.link {
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+  transition: color 0.2s;
+}
+
+.contacts {
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
+}
+
+.link:hover {
+  color: #d74444;
+}

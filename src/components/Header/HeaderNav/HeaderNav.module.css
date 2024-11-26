@@ -1,0 +1,61 @@
+.nav {
+  padding: 25px 40px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.07);
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  column-gap: 50px;
+}
+
+.link {
+  display: flex;
+  font-size: 16px;
+  font-weight: 400;
+  white-space: nowrap;
+  align-items: center;
+  column-gap: 10px;
+  color: black;
+  transition: color 0.2s;
+}
+
+.linkActive,
+.link:hover {
+  color: #d74444;
+}
+
+.kitchenIcon {
+  width: 23px;
+  height: 23px;
+}
+
+.bedroomIcon {
+  width: 28px;
+  height: 22px;
+}
+
+.livingroomIcon {
+  width: 30px;
+  height: 22px;
+}
+
+.closetIcon {
+  width: 22px;
+  height: 22px;
+}
+
+.officeIcon {
+  width: 22px;
+  height: 22px;
+}
+
+.childrensroomIcon {
+  width: 22px;
+  height: 22px;
+}
+
+.etcIcon {
+  width: 3px;
+  height: 16px;
+}

@@ -1,0 +1,50 @@
+.banner {
+  /* width: 1140px;
+  height: 450px; */
+  position: relative;
+}
+
+.button {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: rgba(157, 157, 157, 0.28);
+  width: 30px;
+  height: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: color 0.2s, background-color 0.2s;
+
+  cursor: pointer;
+}
+
+.button:disabled {
+  background-color: rgba(157, 157, 157, 0.28);
+  color: rgba(255, 255, 255, 1);
+  cursor: no-drop;
+}
+
+.buttonLeft {
+  position: absolute;
+  top: 50%;
+  left: 25px;
+  transform: translateY(-50%);
+}
+
+.buttonRight {
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  transform: translateY(-50%);
+}
+
+.left,
+.right {
+  width: 8px;
+  height: 16px;
+}
+
+.right {
+  transform: rotate(180deg);
+}

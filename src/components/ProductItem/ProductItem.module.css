@@ -1,0 +1,29 @@
+.productItem {
+  padding: 42px 20px 32px;
+  border: 1px solid black;
+  display: block;
+}
+
+.img {
+  margin-bottom: 54px;
+}
+
+.title {
+  margin-bottom: 6px;
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--text-color);
+}
+
+.groups {
+  margin-bottom: 9px;
+  font-weight: 400;
+  font-size: 11px;
+  color: var(--text-color);
+}
+
+.price {
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--text-color);
+}
